@@ -1,0 +1,276 @@
+@media (max-width: 576px) {
+    .logo-text {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .language {
+        justify-content: center;
+    }
+
+    .search-form {
+        margin-top: 10px;
+    }
+}
+
+.custom-logo {
+    width: 100px;
+    height: 100px;
+}
+
+.cover-image {
+    width: 100%;
+    height: auto;
+}
+
+.car-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.car-description {
+    padding-left: 20px;
+}
+
+.verde {
+    background-color: #66BB6A;
+    color: white;
+    padding: 20px;
+}
+
+.azul {
+    background-color: #2196F3;
+    color: white;
+    padding: 20px;
+}
+
+.amarelo {
+    background-color: #FFC107;
+    color: white;
+    padding: 20px;
+}
+
+.div6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+    background-color: #f0f0f0;
+}
+
+.comment-form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+  
+.comment-form h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+  
+.comment-form textarea,
+.comment-form input[type="text"],
+.comment-form input[type="email"],
+.comment-form button {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+  
+.comment-form textarea {
+    height: 100px;
+}
+  
+.comment-form input[type="text"],
+.comment-form input[type="email"] {
+    width: 100%;
+ }
+
+ .div7 {
+    padding: 20px;
+    justify-content: space-between;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+ .avaliacao img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.estrela {
+    font-size: 24px;
+    color: #FFC107;
+    margin-right: 5px;
+}
+
+.carregar-mais {
+    display: block;
+    margin-left: 80%;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .avaliacao {
+        flex-direction: column; /* Altera para linha em dispositivos com largura maior que 768px */
+    }
+
+    .carregar-mais {
+        margin-left: 0%;
+        margin-top: 20px;
+    }
+}
+
+@media (orientation:portrait) {
+    .avaliacao {
+        flex-direction: column;
+    }
+  
+}
+
+/* novidades e editorial*/
+.novidades,
+.sobre {
+    
+    border: 1px solid black;
+}
+  
+.novidades h2 {
+    text-align: left;
+}
+  
+.materia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.materia img {
+    max-width: 150px;
+    max-height: 100px;
+}
+  
+.texto-materia {
+    margin-left: 20px;
+    text-align: justify ;
+}
+  
+.botoes-materia button {
+    margin-right: 10px;
+}
+  
+.sobre h2,h3{
+    text-align: justify;
+}
+  
+.equipe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+}
+  
+.membro {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+  
+  
+.membro img {
+    margin-right: 10px;
+    width: 50px;
+    height: 50px;
+}
+  
+.redes-sociais {
+    display: flex;
+    margin-top: 20px;
+}
+  
+.redes-sociais a {
+    margin: 0 10px;
+}
+  
+.redes-sociais img {
+    max-width: 50px;
+    max-height: 50px;
+}
+
+/* colunas*/
+
+
+#div9 .col{
+    width: 100%;
+    max-width: 300px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+#div9 .col h3 {
+    margin-top: 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+#div9 .col ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#div9 .col a {
+    color: #333;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+
+/* footer*/
+.site-footer {
+    background-color: #f0f0f0;
+    padding: 40px 20px;
+    text-align: center;
+    
+}
+
+.site-footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #555;
+    text-align: center;
+}
+
+.redes-sociais {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+  
+.redes-sociais a {
+    display: inline-block;
+    margin: 0 10px;
+}
+  
+.redes-sociais img {
+    max-width: 40px;
+    height: auto;
+}
+ 
+.site-footer h3{
+    text-align: center;
+}
